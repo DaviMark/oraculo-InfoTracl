@@ -2,12 +2,8 @@ import streamlit as st
 import requests
 import re
 from datetime import datetime
-from dotenv import load_dotenv
-import os
 
-load_dotenv()
-
-URL_API = os.getenv("URL_API")
+URL_API = "https://script.google.com/macros/s/AKfycbz--aEmwL96WoJ5cmjWqvlBwUyWLd45Jx-r4d6TAMX-Oo7ZFp7TBbFRZzsxDLwG6cnj/exec"
 
 st.set_page_config(page_title="Oráculo", page_icon="🔍", layout="wide")
 st.title("📊🔍 Oráculo - Vetra")
