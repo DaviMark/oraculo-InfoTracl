@@ -10,7 +10,7 @@ load_dotenv()
 URL_API = os.getenv("URL_API")
 
 st.set_page_config(page_title="Oráculo", page_icon="🔍", layout="wide")
-st.title("📊🔍 Oráculo - Vetra")
+st.title("📊🔍 Oráculo - Consultando dados Operacional e GR")
 
 palavras_comuns = {"o", "é", "de", "do", "da", "um", "uma", "os", "as", "em", "para", "por", "com", "sobre", "tem", "que"}
 
